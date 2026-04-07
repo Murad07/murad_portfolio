@@ -21,7 +21,7 @@ const firaCode = Fira_Code({
 });
 
 export const metadata: Metadata = {
-  title: "MURAD.OS | Mohammad Murad Hossain",
+  title: "MURAD.DEV | Mohammad Murad Hossain",
   description: "Portfolio of Mohammad Murad Hossain - Full Stack Architect and JavaScript Enthusiast",
 };
 
@@ -32,7 +32,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en" className="dark scroll-smooth">
       <head>
         <link
           rel="stylesheet"

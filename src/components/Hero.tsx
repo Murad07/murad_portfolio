@@ -15,17 +15,17 @@ const Hero = () => {
                     <span className="bg-gradient-to-r from-primary to-primary-container bg-clip-text text-transparent text-glow">Mohammad Murad Hossain</span>
                 </h1>
                 <p className="text-xl text-on-surface-variant max-w-lg leading-relaxed border-l-2 border-primary/20 pl-6">
-                    <span className="text-secondary">Full Stack Architect</span> | <span className="text-primary">Cloud Solutions</span> Enthusiast | Tech Innovator
+                    <span className="text-secondary">Full Stack Software Developer</span> | <span className="text-primary">MERN Stack</span> Specialist | UI/UX Architect
                 </p>
 
                 <div className="flex flex-wrap gap-4 pt-4">
-                    <button className="px-8 py-4 bg-gradient-to-br from-primary to-primary-container text-on-primary font-bold rounded-lg shadow-[0_0_30px_rgba(45,212,191,0.2)] hover:translate-y-[-12px] transition-transform">
+                    <a href="#about" className="px-8 py-4 bg-gradient-to-br from-primary to-primary-container text-on-primary font-bold rounded-lg shadow-[0_0_30px_rgba(45,212,191,0.2)] hover:translate-y-[-4px] transition-transform text-center flex items-center justify-center">
                         Learn More
-                    </button>
-                    <button className="px-8 py-4 border border-primary/30 text-primary font-bold rounded-lg hover:bg-primary/5 transition-colors group">
+                    </a>
+                    <a href="https://drive.google.com/file/d/1uSAfdddsSuqX-y7xtvGB-XBdoIcqZsZx/view?usp=sharing" target="_blank" rel="noreferrer" className="px-8 py-4 border border-primary/30 text-primary font-bold rounded-lg hover:bg-primary/5 transition-colors group text-center flex items-center justify-center">
                         View Resume
-                        <span className="material-symbols-outlined align-middle ml-2 group-hover:translate-x-1 transition-transform">arrow_forward</span>
-                    </button>
+                        <span className="material-symbols-outlined align-middle ml-2 group-hover:translate-x-1 transition-transform">description</span>
+                    </a>
                 </div>
             </div>
 
