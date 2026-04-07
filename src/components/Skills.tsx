@@ -7,22 +7,22 @@ const skillCategories = [
     {
         title: "Frontend",
         icon: "language",
-        skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Redux"]
+        skills: ["JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS", "Shadcn UI", "Framer Motion"]
     },
     {
         title: "Backend",
         icon: "dns",
-        skills: ["Node.js", "Express.js", "MongoDB", "PostgreSQL", "REST APIs", "GraphQL"]
+        skills: ["Node.js", "Express", "Laravel", "MySQL", "PostgreSQL", "MongoDB", "Prisma"]
     },
     {
-        title: "Cloud",
+        title: "Cloud & Ops",
         icon: "cloud",
-        skills: ["AWS", "Docker", "Vercel", "Firebase", "DigitalOcean"]
+        skills: ["Docker", "Vercel", "AWS", "Firebase"]
     },
     {
         title: "Tools & Technics",
         icon: "build",
-        skills: ["Git & GitHub", "Linux", "CI/CD", "Postman", "Agile", "Webpack"]
+        skills: ["Git & GitHub", "Linux", "CI/CD", "Postman"]
     }
 ];
 
