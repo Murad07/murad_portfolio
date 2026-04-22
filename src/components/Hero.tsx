@@ -22,7 +22,7 @@ const Hero = () => {
                     <a href="#about" className="px-8 py-4 bg-gradient-to-br from-primary to-primary-container text-on-primary font-bold rounded-lg shadow-[0_0_30px_rgba(45,212,191,0.2)] hover:translate-y-[-4px] transition-transform text-center flex items-center justify-center">
                         Learn More
                     </a>
-                    <a href="https://drive.google.com/file/d/1uSAfdddsSuqX-y7xtvGB-XBdoIcqZsZx/view?usp=sharing" target="_blank" rel="noreferrer" className="px-8 py-4 border border-primary/30 text-primary font-bold rounded-lg hover:bg-primary/5 transition-colors group text-center flex items-center justify-center">
+                    <a href="https://drive.google.com/file/d/1GgXccQtm5UKi5AHmjxcwQl9wjAGKWEQ3/view?usp=sharing" target="_blank" rel="noreferrer" className="px-8 py-4 border border-primary/30 text-primary font-bold rounded-lg hover:bg-primary/5 transition-colors group text-center flex items-center justify-center">
                         View Resume
                         <span className="material-symbols-outlined align-middle ml-2 group-hover:translate-x-1 transition-transform">description</span>
                     </a>
