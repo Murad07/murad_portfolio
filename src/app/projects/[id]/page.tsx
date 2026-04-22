@@ -86,6 +86,12 @@ export default async function ProjectDetails({ params }: { params: Promise<{ id:
                                             <span className="material-symbols-outlined">open_in_new</span>
                                             Live Demo
                                         </a>
+                                        {'video' in project.links && (
+                                            <Link href={`/projects/${id}/video`} className="flex items-center gap-3 w-full p-3 rounded-lg border border-primary/50 bg-primary/10 hover:bg-primary/20 text-primary font-bold transition-all justify-center">
+                                                <span className="material-symbols-outlined text-[20px]">play_circle</span>
+                                                Watch Video Explanation
+                                            </Link>
+                                        )}
                                         {project.links.githubFront !== "#" && (
                                             <a href={project.links.githubFront} target="_blank" rel="noreferrer" className="flex items-center gap-3 w-full p-3 rounded-lg border border-outline-variant/30 hover:border-primary/50 hover:bg-primary/5 transition-all justify-center font-mono text-sm">
                                                 <span className="material-symbols-outlined">code</span>

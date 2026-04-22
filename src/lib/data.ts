@@ -8,7 +8,8 @@ export const projectsData = [
         links: {
             live: "https://assign-5-promtvault-front.vercel.app/",
             githubFront: "https://github.com/Murad07/assign_5_promtvault_front",
-            githubBack: "https://github.com/Murad07/assign_5_promtvault_back"
+            githubBack: "https://github.com/Murad07/assign_5_promtvault_back",
+            video: "https://drive.google.com/file/d/1QuceFW1tpdhveipYEfCqBPLCPesrpu3_/view?usp=drive_link"
         },
         challenges: "Managing real-time data sync with Stripe checkouts and handling role-based dashboard rendering dynamically without flickering. Orchestrating secure API gateways for the buyer/seller dichotomy presented strict layout and authorization hurdles.",
         futurePlans: "I plan to implement direct AI integration so users can write better prompts and generate content directly from within our platform without leaving the ecosystem."
@@ -22,7 +23,8 @@ export const projectsData = [
         links: {
             live: "https://assign-4-l2b6-sb-frontend.vercel.app/",
             githubFront: "https://github.com/Murad07/assign_4_l2b6_sb_frontend",
-            githubBack: "https://github.com/Murad07/assign_4_L2B6_skillBridge_backend"
+            githubBack: "https://github.com/Murad07/assign_4_L2B6_skillBridge_backend",
+            video: "https://drive.google.com/file/d/1VxtOKcx3KtuAcC-LaC-ewpPY-6I7DF6G/view?usp=drive_link"
         },
         challenges: "Handling complex scheduling logic, time zone offsets, and securely managing multiple distinct user roles (Tutor, Student, Admin) using JWTs alongside a Better-Auth compatible system.",
         futurePlans: "To take the platform to the next level of education, I plan to integrate an AI system capable of summarizing classes and generating automated random test assessments for students."
